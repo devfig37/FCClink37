@@ -542,6 +542,30 @@ img {
   .showcase-content {
     margin-top: 3rem;
   }
+  
+  #tab-1-content .tab-1-content-bottom {
+   margin-top: 2rem;
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+   grid-gap: 2rem;
+   text-align: center;
+  }
+  
+  #tab-2-content .tab-2-content-bottom {
+   margin-top: 2rem;
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+   grid-gap: 2rem;
+   text-align: center;
+  }
+  
+  #tab-1-content .tab-1-content-bottom .drums2 img {
+   margin-left: -2rem;
+  }
+  
+  #tab-2-content .tab-2-content-bottom .guitar2 img {
+   margin-left: 0rem;
+  }
 }
 
 @media (max-width: 415px) {
