@@ -539,6 +539,15 @@ img {
 }
 
 @media (max-width: 500px) {
+   .btn-rounded {
+    margin-right: -1rem;
+  }
+  
+  .showcase::after {
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: inset 50px 50px 100px #000000, inset -50px -50px 100px #000000;
+  }
+  
   .showcase-content {
     margin-top: 3rem;
   }
