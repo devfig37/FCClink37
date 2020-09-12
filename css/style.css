@@ -591,3 +591,9 @@ img {
     padding-left: 1rem;
   }
 }
+
+@media (max-height: 670px) {
+  .showcase-content {
+    margin-top: 6rem;
+  }
+}
