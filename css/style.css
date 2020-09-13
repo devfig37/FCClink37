@@ -582,7 +582,7 @@ img {
     grid-gap: 2rem;
   }
   .showcase-content {
-    margin-top: 3rem;
+    margin-top: 8rem;
   }
 
   .top-email input[type="email"] {
@@ -601,5 +601,29 @@ img {
 @media (max-height: 639px) {
   .showcase-content {
     margin-top: 8rem;
+  }
+}
+
+@media (max-height: 625px) {
+  .showcase-content {
+    margin-top: 0.5rem;
+  }
+  .tabs .container {
+    grid-gap: 1rem;
+  }
+  .btn-rounded {
+    margin-right: -1.5rem;
+  }
+  #tab-1-content .tab-1-content-bottom .drums2 img {
+    margin-left: -3.5rem;
+  }
+  #tab-1-content .tab-1-content-bottom .drums3 img {
+    margin-left: -2.5rem;
+  }
+  #tab-2-content .tab-2-content-bottom .guitar1 img {
+    margin-left: -2.5rem;
+  }
+  #tab-2-content .tab-2-content-bottom .guitar2 img {
+    margin-left: -1rem;
   }
 }
