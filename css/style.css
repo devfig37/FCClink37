@@ -606,6 +606,12 @@ img {
 
 @media (max-height: 625px) {
   .showcase-content {
+  margin-top: 2rem; 
+  }
+}
+
+@media (max-height: 600px) {
+  .showcase-content {
     margin-top: 0.5rem;
   }
   .tabs .container {
@@ -627,3 +633,4 @@ img {
     margin-left: -1rem;
   }
 }
+
