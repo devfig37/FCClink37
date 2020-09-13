@@ -592,7 +592,7 @@ img {
   }
 }
 
-@media (max-height: 670px) {
+@media (max-width: 375px) {
   .showcase-content {
     margin-top: 4rem;
   }
