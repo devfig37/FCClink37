@@ -597,3 +597,9 @@ img {
     margin-top: 4rem;
   }
 }
+
+@media (max-height: 635px) {
+  .showcase-content {
+    margin-top: 4rem;
+  }
+}
